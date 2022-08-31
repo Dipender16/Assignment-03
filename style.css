@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Jost&family=Maven+Pro:wght@500&family=Montserrat:wght@600&family=Paytone+One&family=Poppins:wght@200&family=Roboto&family=Russo+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #2b2922;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+    padding: 50px;
+}
+#logo{
+    width: 150px;
+}
+#menuContainer{
+    display: flex;
+
+}
+#menuContainer li{
+    list-style: none;
+    color: rgb(146, 146, 146);
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#menuContainer li:hover{
+    color: white;
+}
+#rightHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background-color: #2b2922;
+    border: 1px solid #a08f36;
+    color: #a08f36;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid white;
+    color: white;
+}
+section{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 6rem;
+    margin: 100px 0px 100px 200px;
+    
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(197, 197, 197);
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+#order{
+    width: 90%;
+    display: block;
+    margin: 0px auto 0px auto;
+    height: 850px;
+}
+.section3{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.container{
+    padding: 20px;
+}
+.backward{
+
+    background: #39372d ;
+}
+.backward span{
+    color: #a08f36;
+    border: 1px solid #a08f36;
+    padding: 10px;
+    border-radius: 50%;
+}
+.forward{
+    background: #a08f36 ;
+}
+.forward span{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
